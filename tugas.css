@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    color: black;
+}
+
+.container {
+    margin: 50px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    position: relative;
+    flex: 1;
+    margin: 10px;
+    max-width: 960px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 10px;
+    height: 40px;
+    left: 5%;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: gray;
+    padding: 5px 20px;
+    border: 1px solid;
+    transition: 0.6s;
+    margin: 10px;
+}
+
+ul li a:hover{
+    background-color: gray;
+    color: black;
+}
+.logo img{
+    float: left;
+    width: 180px;
+    height: auto;
+}
+.main{
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+} 
+.title h1{
+    font-family: sans-serif;
+    color: aliceblue;
+    font-size: 70px;
+}
+.button{
+    position: absolute;
+    top: 55%;
+    left: 35%;
+}
+.btn1{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: ease;
+    border-radius: 5px;
+    margin: 10px;
+}
+.btn1 :hover{
+    background-color: white;
+    color: black;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    background: white;
+    position: relative;
+    flex: 1;
+    margin: 10px;
+    max-width: 960px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    background: white;
+    position: relative;
+    flex: 1;
+    margin: 10px;
+    max-width: 960px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}
+.lingkaran {
+        float: left;
+        list-style-type: none;
+        margin: 90px;
+        align-items: center;
+        height: 120px;
+        position: relative;
+    top: 5%;
+    transform: translate(-80%);
+}
+.lingkaran li {
+        display: inline-block;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white(222, 156, 156);
+    position: relative;
+    flex: 1;
+    margin: 10px;
+    max-width: 960px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}
